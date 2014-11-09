@@ -28,7 +28,8 @@ function loadOSMJS()
 {
     wp_enqueue_script(
         'events-manager-osm',
-        plugin_dir_url(__FILE__).'/events-manager-osm.js'
+        plugin_dir_url(__FILE__).'/events-manager-osm.js',
+        array('jquery')
     );
 }
 
