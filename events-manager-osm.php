@@ -15,7 +15,7 @@ Plugin Name: Events Manager OSM
 Plugin URI: https://github.com/StrasWeb/events-manager-osm
 Description: Use OpenStreetMap in WordPress Events Manager
 Author: StrasWeb
-Version: 0.1
+Version: 0.2
 Author URI: https://strasweb.fr/
 */
 
