@@ -30,7 +30,8 @@ function replaceMap(e, map) {
     copyright.innerHTML = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
     copyright.style.backgroundColor = 'rgba(245, 245, 245, 0.7)';
     copyright.style.padding = '0 6px';
-    copyright.style.height = '15px';
+    copyright.style.fontSize = '10px';
+    copyright.style.color = '#444';
     map.controls[google.maps.ControlPosition.BOTTOM_RIGHT].push(copyright);
 }
 
