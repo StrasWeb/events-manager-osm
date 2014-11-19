@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: Rudloff
 Tags: events, map, openstreetmap
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Requires at least: 4.0
@@ -18,6 +18,9 @@ It still uses the Google API though, only the tiles are replaced.
 1. Upload the `events-manager-osm` directory to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
+= 0.2 =
+* Added OpenStreetMap transport layer
+* Added OpenStreetMap copyright
 
 = 0.1 =
 * Initial release
