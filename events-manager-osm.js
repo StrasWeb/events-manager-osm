@@ -26,6 +26,12 @@ function replaceMap(e, map) {
         }
 
     });
+    var copyright = document.createElement('div');
+    copyright.innerHTML = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
+    copyright.style.backgroundColor = 'rgba(245, 245, 245, 0.7)';
+    copyright.style.padding = '0 6px';
+    copyright.style.height = '15px';
+    map.controls[google.maps.ControlPosition.BOTTOM_RIGHT].push(copyright);
 }
 
 jQuery(document).bind('em_maps_location_hook', replaceMap);
