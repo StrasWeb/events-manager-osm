@@ -18,6 +18,8 @@ It still uses the Google API though, only the tiles are replaced.
 1. Upload the `events-manager-osm` directory to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
+== Changelog ==
+
 = 0.2 =
 * Added OpenStreetMap transport layer
 * Added OpenStreetMap copyright
