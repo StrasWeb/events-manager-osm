@@ -1,0 +1,6 @@
+{
+	"name": "strasweb/events-manager-osm",
+	"type": "wordpress-plugin",
+	"description": "Use OpenStreetMap in WordPress Events Manager",
+	"license": "GPL-2.0"
+}
