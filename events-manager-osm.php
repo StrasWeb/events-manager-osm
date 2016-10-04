@@ -20,18 +20,6 @@ Version: 0.2
 Author URI: https://strasweb.fr/
 */
 
-/**
- * Load the JavaScript.
- *
- * @return void
- * */
-function loadOSMJS()
-{
-    wp_enqueue_script(
-        'events-manager-osm',
-        plugin_dir_url(__FILE__).'/events-manager-osm.js',
-        ['jquery']
-    );
-}
+require_once __DIR__.'/vendor/autoload.php';
 
-add_action('wp_head', 'loadOSMJS');
+add_action('wp_enqueue_scripts', array('EventsManagerOsm\ScriptLoader', 'init'));
