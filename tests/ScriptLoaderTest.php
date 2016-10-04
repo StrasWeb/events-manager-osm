@@ -1,4 +1,5 @@
 <?php
+
 namespace EventsManagerOsm\Test;
 
 use EventsManagerOsm\ScriptLoader;

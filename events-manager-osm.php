@@ -22,4 +22,4 @@ Author URI: https://strasweb.fr/
 
 require_once __DIR__.'/vendor/autoload.php';
 
-add_action('wp_enqueue_scripts', array('EventsManagerOsm\ScriptLoader', 'init'));
+add_action('wp_enqueue_scripts', ['EventsManagerOsm\ScriptLoader', 'init']);
