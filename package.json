@@ -1,7 +1,7 @@
 {
   "name": "events-manager-osm",
   "description": "Use OpenStreetMap in WordPress Events Manager",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "StrasWeb",
   "bugs": "https://github.com/StrasWeb/events-manager-osm/issues",
   "devDependencies": {
