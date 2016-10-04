@@ -12,7 +12,7 @@ class ScriptLoaderTest extends \PHPUnit_Framework_TestCase
         WP_Mock::setUp();
         WP_Mock::wpFunction('wp_enqueue_style');
         WP_Mock::wpFunction('wp_enqueue_script');
-        WP_Mock::wpFunction('get_template_directory_uri');
+        WP_Mock::wpFunction('plugin_dir_url');
         WP_Mock::wpFunction('wp_localize_script');
     }
 
