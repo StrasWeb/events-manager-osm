@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Events Manager OSM ===
 Contributors: Rudloff
 Tags: events, map, openstreetmap
 Stable tag: 0.2.1
