@@ -11,7 +11,7 @@ Use OpenStreetMap in WordPress Events Manager
 
 == Description ==
 
-This plugin replaces the Google map used by the Events Manager plugin (http://wp-events-plugin.com/) with an OpenStreetMap map.
+This plugin replaces the Google map used by the [Events Manager](https://wp-events-plugin.com/) plugin  with an OpenStreetMap map.
 It still uses the Google API though, only the tiles are replaced.
 
 == Installation ==
