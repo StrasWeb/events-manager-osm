@@ -47,4 +47,4 @@ function replaceMap(e, map) {
     map.controls[google.maps.ControlPosition.BOTTOM_RIGHT].push(copyright);
 }
 
-jQuery(document).bind('em_maps_location_hook', replaceMap);
+jQuery(document).on('em_maps_location_hook', replaceMap);
